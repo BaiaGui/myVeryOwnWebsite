@@ -1,0 +1,3 @@
+.gridLayout{
+    grid-template-columns: repeat(auto-fit, minmax(50px, auto));
+}
