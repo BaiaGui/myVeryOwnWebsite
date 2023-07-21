@@ -1,6 +1,7 @@
 import './styles/App.css'
 import { LandingSec } from './components/sections/LandingSec'
 import { SkillsSec } from './components/sections/SkillsSec'
+import { ProjectsSec } from './components/sections/ProjectsSec'
 
 function App() {
 
@@ -11,6 +12,7 @@ function App() {
         <p>HTML</p>
         <p>CSS</p>
       </SkillsSec>
+      <ProjectsSec/>
     </div>
   )
 }
