@@ -2,6 +2,7 @@ import './styles/App.css'
 import { LandingSec } from './components/sections/LandingSec'
 import { SkillsSec } from './components/sections/SkillsSec'
 import { ProjectsSec } from './components/sections/ProjectsSec'
+import { ContactSec } from './components/sections/ContactSec'
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
         <p>CSS</p>
       </SkillsSec>
       <ProjectsSec/>
+      <ContactSec/>
     </div>
   )
 }
