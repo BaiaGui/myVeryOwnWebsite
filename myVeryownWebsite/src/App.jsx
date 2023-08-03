@@ -9,10 +9,7 @@ function App() {
   return (
     <div className='flex flex-col'>
       <LandingSec/>
-      <SkillsSec>
-        <p>HTML</p>
-        <p>CSS</p>
-      </SkillsSec>
+      <SkillsSec/>
       <ProjectsSec/>
       <ContactSec/>
     </div>
@@ -20,3 +17,5 @@ function App() {
 }
 
 export default App
+
+
