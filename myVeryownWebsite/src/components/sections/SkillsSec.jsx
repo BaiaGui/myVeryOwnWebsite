@@ -6,11 +6,12 @@ import tailwindLogo from '../../assets/skillsIcons/tailwind.svg'
 import htmlLogo from '../../assets/skillsIcons/html.svg'
 import cssLogo from '../../assets/skillsIcons/css.svg'
 import { useState } from 'react'
+import { SecTitle } from '../SecTitle'
 
 export function SkillsSec() {
     return (
         <div className="flex flex-col items-center px-5 py-10 bg-white">
-            <h2 className="font-bold text-2xl">Habilidades</h2>
+            <SecTitle>Habilidades</SecTitle>
             <div className="grid grid-cols-4 gap-12 mt-10 md:grid-cols-6 justify-items-center">
             <SkillIcon logoSrc={reactlogo}>React</SkillIcon>
             <SkillIcon logoSrc={tailwindLogo}>Tailwind</SkillIcon>

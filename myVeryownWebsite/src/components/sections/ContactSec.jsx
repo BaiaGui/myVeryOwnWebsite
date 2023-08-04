@@ -2,13 +2,14 @@ import linkedin from '../../assets/linkedin.svg'
 import github from '../../assets/github.svg'
 import email from '../../assets/email.svg'
 import download from '../../assets/download.svg'
+import { SecTitle } from '../SecTitle';
 
 export function ContactSec() {
 
     let iconSize = "40px";
     return (
-        <div className="flex flex-col items-center py-24">
-            <h2 className="font-bold text-2xl">Entre em contato</h2>
+        <div className="flex flex-col py-10 items-center">
+           <SecTitle>Entre em contato</SecTitle>
             <div className="flex space-x-16 mt-24">
                 <a href="mailto: guilhermebaiav@gmail.com"><img src={email} alt="" width={iconSize} className="hover:scale-105"/></a>
                 <a href="https://www.linkedin.com/in/guibaia/" target='_blank'><img src={linkedin} alt="" width={iconSize} className="hover:scale-105"/></a>
