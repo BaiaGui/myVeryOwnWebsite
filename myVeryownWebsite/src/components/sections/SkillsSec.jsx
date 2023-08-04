@@ -1,11 +1,10 @@
 import '../../styles/SkillsSec.css'
-import '../../assets/react.svg'
-import reactlogo from '../../assets/react.svg'
-import figmaLogo from '../../assets/figma.svg'
-import flutterLogo from '../../assets/flutter.svg'
-import tailwindLogo from '../../assets/tailwind.svg'
-import htmlLogo from '../../assets/html.svg'
-import cssLogo from '../../assets/css.svg'
+import reactlogo from '../../assets/skillsIcons/react.svg'
+import figmaLogo from '../../assets/skillsIcons/figma.svg'
+import flutterLogo from '../../assets/skillsIcons/flutter.svg'
+import tailwindLogo from '../../assets/skillsIcons/tailwind.svg'
+import htmlLogo from '../../assets/skillsIcons/html.svg'
+import cssLogo from '../../assets/skillsIcons/css.svg'
 import { useState } from 'react'
 
 export function SkillsSec() {

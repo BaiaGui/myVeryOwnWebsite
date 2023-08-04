@@ -20,7 +20,7 @@ export function LandingSec() {
                     </div>
                     <div className="flex flex-col justify-center items-center  md:items-start md:w-1/2">
                         <h1 className="w-fit text-center font-bold text-xl md:text-start md:text-2xl lg:text-4xl text-stone-800">Olá, meu nome é Guilherme Baia. Sou desenvolvedor Front-end e Web Designer</h1>
-                        <h2 className="w-fit mt-4 text-center md:text-start text-md text-stone-600">Estou aqui para ajudar empresas a se exporem na internet de maneira simples, acessível e rápida. Conheça mais sobre meu trabalho!</h2>
+                        <h2 className="w-fit mt-4 text-center md:text-start text-md text-stone-600">Minha missão é, através da tecnologia e do meu trabalho, causar impactos positivos na sociedade melhorar a qualidade de vida de todos. Conheça mais sobre meu trabalho! </h2>
                         <button className="text-md border font-bold text-stone-800 px-20 py-6 rounded-md mt-9 bg-stone-100/50 border-amber-900/20 hover:scale-105 ease-in-out duration-100">Explorar</button>
                     </div>
                 </div>
