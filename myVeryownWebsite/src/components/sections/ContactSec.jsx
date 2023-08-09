@@ -17,7 +17,8 @@ export function ContactSec() {
             </div>
             <div className='flex flex-col justify-center items-center mt-16'>
                 <p className='text-lg text-center'>Quer saber mais sobre minha trajetória profissional? Meu currículo está disponível!</p>
-                <button className="flex items-center text-md border font-bold text-stone-500 w-fit p-3 md:px-28 py-5 rounded-md mt-9 bg-white border-amber-900/20 hover:text-stone-800 hover:border-stone-700 ease-in-out duration-100"><img src={download} alt="" className=' mr-3 w-5' /> Currículo</button>
+                <button className="flex items-center text-md border font-bold text-stone-500 w-fit p-3 md:px-28 py-5 rounded-md mt-9 bg-white border-amber-900/20 hover:text-stone-800 hover:border-stone-700 ease-in-out duration-100"><img src={download} alt="" className=' mr-3 w-5' />Currículo</button>
+
             </div>
         </div>
     );

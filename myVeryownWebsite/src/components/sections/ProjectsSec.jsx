@@ -1,4 +1,6 @@
 import popThumb from '../../assets/popThumb.png'
+import plannerThumb from '../../assets/plannerThumb.png'
+import vertexaThumb from '../../assets/vertexaThumb.png'
 import { SecTitle } from '../SecTitle';
 
 export function ProjectsSec(){
@@ -8,12 +10,12 @@ export function ProjectsSec(){
             <ProjectCard side={"l"} title={"Pop Tac Toe"} imgUrl={popThumb} link={"https://baiagui.github.io/pop-tac-toe/"}>
                 Jogo da velha baseado nos estilo pop art feito em HTML, CSS e Javascript
             </ProjectCard>
-            <ProjectCard side={"r"} title={"Pop Tac Toe"} imgUrl={popThumb} link={"https://baiagui.github.io/pop-tac-toe/"}>
+            <ProjectCard side={"r"} title={"Vertexa"} imgUrl={vertexaThumb} link={"https://vertexa.com.br/"}>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam, asperiores veniam sequi pariatur alias iste nisi eveniet ducimus labore deserunt quidem? Quasi asperiores odio placeat, enim impedit eum vel fugit.
             </ProjectCard>
-            <ProjectCard side={"l"} title={"Pop Tac Toe"} imgUrl={popThumb} link={"https://baiagui.github.io/pop-tac-toe/"}>
+            <ProjectCard side={"l"} title={"myPlanner"} imgUrl={plannerThumb} link={"https://baiaplanner.netlify.app"}>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam, asperiores veniam sequi pariatur alias iste nisi eveniet ducimus labore deserunt quidem? Quasi asperiores odio placeat, enim impedit eum vel fugit.
-            </ProjectCard>
+            </ProjectCard> 
         </div>
     );
 }
