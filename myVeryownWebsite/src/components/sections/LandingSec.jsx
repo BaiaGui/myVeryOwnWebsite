@@ -1,12 +1,24 @@
-import profile from '../../assets/profilePic.jpg'
+import profile from '../../assets/profilePic.webp'
+import bgBlur from '../../assets/bgBlur.svg'
 
 export function LandingSec() {
     return (
-        <>
-            <div className="flex flex-col bg-gradient-to-b from-amber-100 to-amber-700/5 md:h-screen">
+        <>  
+            {/* <div className="absolute -z-10 w-full h-full">
+                <div className='bg-red-600/20 w-48 h-48 rounded-full absolute top-2/4 left-72'></div>
+                <div className='bg-amber-600/20 w-72 h-72 rounded-full absolute top-44 left-1/3'></div>
+                <div className='bg-fuchsia-800/20 w-96 h-96 rounded-full absolute top-9 left-2/3'></div>
+                <div className='bg-sky-500/20 w-1/4 h-2/4 rounded-full -top-36 -left-14 absolute'></div>
+                <div className='bg-green-500/20 w-1/4 h-2/4 rounded-full top-3/4 left-3/4 absolute'></div>
+            </div> */}
+            <div className="absolute w-full h-screen -z-10 blur-2xl">
+            <img src={bgBlur} className="w-full h-full bg-cover opacity-75" alt="" />
+            </div>
+            
+            <div className="flex flex-col bg-gradient-to-b from-amber-100/40 to-amber-700/5 md:h-screen">
                 <header className="flex w-full justify-between px-10 py-3 border-b border-amber-900/20 items-center">
                     <p className="font-bold text-amber-900 text-xl">GUI.BAIA</p>
-                    <ul className="flex flex-row space-x-5 text-sm font-bold text-amber-950">
+                    <ul className="flex flex-row space-x-12 text-sm font-bold text-amber-950">
                         <li className="hover:text-amber-800"><a href="#">Habilidades</a></li>
                         <li className="hover:text-amber-800"><a href="#">Projetos</a></li>
                         <li className="hover:text-amber-800"><a href="#">Currículo</a></li>
