@@ -6,7 +6,7 @@ import { SecTitle } from '../SecTitle';
 
 export function ProjectsSec(){
     return (
-        <div className="flex flex-col items-center lg:px-64 py-10 bg-amber-400/5">
+        <div className="flex flex-col items-center lg:px-64 py-10 bg-amber-400/5" id='ProjectSecId'>
             <SecTitle>{"Projetos"}</SecTitle>
             <ProjectCard side={"l"} title={"Pop Tac Toe"} imgUrl={popThumb} link={"https://baiagui.github.io/pop-tac-toe/"}>
                 Jogo da velha baseado nos estilo pop art feito em HTML, CSS e Javascript

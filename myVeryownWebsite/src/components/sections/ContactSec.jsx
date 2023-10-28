@@ -9,7 +9,7 @@ export function ContactSec() {
 
     let iconSize = "40px";
     return (
-        <div className="flex flex-col py-10 items-center">
+        <div className="flex flex-col py-10 items-center" id='ContactSecId'>
            <SecTitle>Entre em contato</SecTitle>
             <div className="flex space-x-16 mt-24">
                 <a href="mailto: guilhermebaiav@gmail.com"><img src={email} alt="" width={iconSize} className="hover:scale-105"/></a>

@@ -7,7 +7,7 @@ import { ContactSec } from './components/sections/ContactSec'
 function App() {
 
   return (
-    <div className='flex flex-col'>
+    <div className='flex flex-col scroll-smooth'>
       <LandingSec/>
       <SkillsSec/>
       <ProjectsSec/>
