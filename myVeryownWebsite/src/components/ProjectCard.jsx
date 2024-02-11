@@ -7,11 +7,13 @@ export function ProjectCard({ project }) {
     return (
         <HoverCard.Root openDelay={100} closeDelay={100}>
             <HoverCard.Trigger asChild>
-                <a href={project.deployLink}><img src={project.thumbnail} alt="" className='aspect-video w-96 rounded-md' /></a>
+                <a href={project.deployLink} className='w-fit h-fit'>
+                    <img src={project.thumbnail} alt="" className='aspect-video w-96 rounded-sm ring-amber-700/20 hover:ring-4 transition-all duration-75' />
+                </a>
             </HoverCard.Trigger>
             <HoverCard.Portal>
                 <HoverCard.Content asChild>
-                    <div className='bg-white p-5 mt-2 w-[400px] shadow-sm rounded-md'>
+                    <div className='bg-white p-5 mt-2 w-[400px] shadow-sm rounded-sm'>
                         {project.description}
                         <div className='flex gap-1 mt-5'>
                             {projectTags}
