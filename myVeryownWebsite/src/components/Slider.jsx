@@ -24,7 +24,7 @@ export function Slider({slides, numberOfCardsShown}){
            <button disabled={!(currentIndex+1 > 1)} onClick={handlePreviousSlide} className='p-4 aspect-square mr-3 rounded-full hover:bg-amber-800/5 transition-all group'>
                 <ChevronLeft className='group-disabled:text-amber-700/25 text-amber-950' />
            </button>
-            <div className='  w-fit grid grid-rows-2 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3'>
+            <div className='  w-fit grid grid-rows-1 grid-cols-1  md:grid-cols-2 lg:grid-cols-3 gap-3'>
                 {cardsShown}
             </div>
            <button disabled={!(currentIndex+1 < numberOfPages)} onClick={handleNextSlide} className='p-4 aspect-square ml-3 rounded-full hover:bg-amber-800/5 transition-all group'>
