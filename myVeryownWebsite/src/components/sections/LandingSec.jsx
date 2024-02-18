@@ -18,7 +18,7 @@ export function LandingSec() {
                     </div>
                     <div className="flex flex-col justify-center items-center  md:items-start md:w-1/2">
                         <h1 className="w-fit text-center font-bold text-3xl md:text-start md:text-6xl xl:text-8xl text-stone-800 tracking-tighter">Guilherme Baia</h1>
-                        <h2 className="bg-gradient-to-bl  font-semibold mb-9 from-red-600 to-orange-600 bg-clip-text text-transparent font-serif italic text-center text-xl md:text-3xl md:text-start">Desenvolvedor Web Full-Stack</h2>
+                        <h2 className="bg-gradient-to-bl  font-semibold mb-9 from-red-600 to-orange-600 bg-clip-text text-transparent font-serif italic text-center text-xl md:text-3xl md:text-start">Desenvolvedor Web Full Stack</h2>
                         <h3 className="text-justify w-fit mt-4 md:text-start text-md text-stone-600">
                             Oi! Sou desenvolvedor web full-stack e sou apaixonado por criar websites e aplicações.
                             Eu acredito que a tecnologia tem o poder de melhorar a vida das pessoas e quero poder contribuir com isso através do meu trabalho.<br/>Estou sempre à procura de novos desafios para me aprimorar como desenvolvedor e estou aqui para ajudar você com suas necessidades tecnológicas. Sinta-se à vontade para explorar mais sobre meu trabalho e como posso colaborar com seus projetos!
