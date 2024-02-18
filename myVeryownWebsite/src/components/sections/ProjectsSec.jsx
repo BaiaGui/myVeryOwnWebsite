@@ -15,7 +15,7 @@ export function ProjectsSec(){
         {
             "title": "Smart Notes",
             "thumbnail": smartNotesThumb,
-            "deployLink": "https://cefis-client.onrender.com",
+            "deployLink": "https://smart-notes-j8fu.onrender.com",
             "description": "Um app de anotações que utiliza reconhecimento de fala para armazenar suas notas. Capture seus pensamentos rapidamente através do SmartNotes.",
             "tags": ['React', 'Tailwind', 'Radix']
         },
@@ -54,7 +54,7 @@ export function ProjectsSec(){
 
 
     return (
-        <div className="flex flex-col max-h-[700px] gap-5 items-center lg:px-64 py-10 bg-amber-500/10 pb-20 snap-always snap-center" id='ProjectSecId'>
+        <div className="flex flex-col md:max-h-[700px] gap-5 items-center lg:px-64 py-10 bg-gradient-to-t from-amber-100/40 to-amber-700/5 pb-20 snap-always snap-center" id='ProjectSecId'>
                 <SecTitle>{"Projetos"}</SecTitle>
                 <Slider slides={cards} numberOfCardsShown={6}/>
         </div>
