@@ -5,29 +5,33 @@ import flutterLogo from '../../assets/skillsIcons/flutter.svg'
 import tailwindLogo from '../../assets/skillsIcons/tailwind.svg'
 import htmlLogo from '../../assets/skillsIcons/html.svg'
 import cssLogo from '../../assets/skillsIcons/css.svg'
+import nodeLogo from '../../assets/skillsIcons/node.svg'
+import gitLogo from '../../assets/skillsIcons/git.svg'
+import pythonLogo from '../../assets/skillsIcons/python.svg'
+import expressLogo from '../../assets/skillsIcons/express.svg'
+import postgresqlLogo from '../../assets/skillsIcons/postgresql.svg'
 import { useState } from 'react'
 import { SecTitle } from '../SecTitle'
 
 export function SkillsSec() {
     return (
-        <div className="flex flex-col items-center px-5 py-10 bg-white" id='SkillsSecId'>
+        <div className="flex flex-col items-center snap-center snap-always px-5 py-10 bg-white" id='SkillsSecId'>
             <SecTitle>Habilidades</SecTitle>
-            <div className="grid grid-cols-4 gap-12 mt-10 md:grid-cols-6 justify-items-center">
+            <div className="w-fit flex flex-wrap gap-4 mt-10 justify-center sm:gap-10">
                 <SkillIcon logoSrc={reactlogo}>React</SkillIcon>
                 <SkillIcon logoSrc={tailwindLogo}>Tailwind</SkillIcon>
                 <SkillIcon logoSrc={htmlLogo}>HTML</SkillIcon>
                 <SkillIcon logoSrc={cssLogo}>CSS</SkillIcon>
                 <SkillIcon logoSrc={flutterLogo}>Flutter</SkillIcon>
-                <SkillIcon logoSrc={figmaLogo}>Figma</SkillIcon>
+                {/* <SkillIcon logoSrc={figmaLogo}>Figma</SkillIcon> */}
             </div>
             <hr className=' h-[1px] w-1/2 mt-6 bg-amber-950/10' />
-            <div className="grid grid-cols-4 gap-12 mt-10 md:grid-cols-6 justify-items-center">
-                <SkillIcon logoSrc={reactlogo}>Node</SkillIcon>
-                <SkillIcon logoSrc={tailwindLogo}>Express</SkillIcon>
-                <SkillIcon logoSrc={htmlLogo}>z</SkillIcon>
-                <SkillIcon logoSrc={cssLogo}>Python</SkillIcon>
-                <SkillIcon logoSrc={cssLogo}>Git</SkillIcon>
-                <SkillIcon logoSrc={reactlogo}>Node</SkillIcon>
+            <div className="w-fit flex flex-wrap gap-4 mt-10 justify-center sm:gap-10">
+                <SkillIcon logoSrc={nodeLogo}>Node</SkillIcon>
+                <SkillIcon logoSrc={expressLogo}>Express</SkillIcon>
+                <SkillIcon logoSrc={pythonLogo}>Python</SkillIcon>
+                <SkillIcon logoSrc={gitLogo}>Git</SkillIcon>
+                <SkillIcon logoSrc={postgresqlLogo}>PostgreSQL</SkillIcon>
 
             </div>  
         </div>

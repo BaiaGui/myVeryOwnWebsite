@@ -6,7 +6,7 @@ import { Navbar } from '../Navbar';
 export function LandingSec() {
     return (
         <>  
-            <div className="absolute w-full h-screen -z-10 blur-2xl">
+            <div className="absolute w-full h-screen -z-10 blur-2xl snap-center snap-always">
             <img src={bgBlur} className="w-full h-full bg-cover opacity-75" alt="" />
             </div>
             

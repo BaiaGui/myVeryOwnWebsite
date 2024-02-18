@@ -54,7 +54,7 @@ export function ProjectsSec(){
 
 
     return (
-        <div className="flex flex-col max-h-[700px] gap-5 items-center lg:px-64 py-10 bg-amber-500/10 pb-20" id='ProjectSecId'>
+        <div className="flex flex-col max-h-[700px] gap-5 items-center lg:px-64 py-10 bg-amber-500/10 pb-20 snap-always snap-center" id='ProjectSecId'>
                 <SecTitle>{"Projetos"}</SecTitle>
                 <Slider slides={cards} numberOfCardsShown={6}/>
         </div>
