@@ -14,7 +14,7 @@ export function Navbar() {
 
         <header className="border-b flex flex-col sm:flex-row sm:justify-between sm:items-center px-10">
             <div className=" flex justify-between items-center px-2 py-3">
-                <p className="font-bold text-orange-700 text-2xl">GUI.BAIA</p>
+                <p className="font-bold text-orange-700 text-2xl select-none">GUI.BAIA</p>
                 <div className="sm:hidden">
                     <button onClick={handleMenuToggle} className="block text-amber-900 focus:outline-none">
                         <Menu className={isOpen?"hidden":"block"} />
