@@ -1,5 +1,6 @@
 import profile from '../../assets/profilePic.webp'
 import bgBlur from '../../assets/bgBlur.svg'
+import { Navbar } from '../Navbar';
 
 
 export function LandingSec() {
@@ -17,16 +18,7 @@ export function LandingSec() {
             </div>
             
             <div className="flex flex-col bg-gradient-to-b from-amber-100/40 to-amber-700/5 md:h-screen" id='LandingSecId'>
-                <header className="flex w-full justify-between px-10 py-3 border-b border-amber-900/20 items-center">
-                    <p className="font-bold text-amber-900 text-xl">GUI.BAIA</p>
-                    <ul className="flex flex-row space-x-12 text-sm font-bold text-amber-950">
-                        <li className="hover:text-amber-800"><a href="#LandingSecId">Home</a></li>
-                        <li className="hover:text-amber-800"><a href="#SkillsSecId">Habilidades</a></li>
-                        <li className="hover:text-amber-800"><a href="#ProjectSecId">Projetos</a></li>
-                        <li className="hover:text-amber-800"><a href="#ContactSecId">Contatos </a></li>
-
-                    </ul>
-                </header>
+                <Navbar/>
                 <div className="flex flex-col items-center h-full md:flex-row-reverse p-8 xl:px-72">
                     <div className="md:w-1/2 flex justify-center">
                         <img src={profile} alt="Selfie" className="flex rounded-full mb-5 md:mb-0 md:w-2/3" />

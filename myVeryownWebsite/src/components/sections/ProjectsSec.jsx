@@ -1,5 +1,6 @@
 import popThumb from '../../assets/popThumb.webp'
 import plannerThumb from '../../assets/plannerThumb.webp'
+import LXPThumb from '../../assets/LXPThumb.png'
 import smartNotesThumb from '../../assets/SmartNotes.png'
 import vertexaThumb from '../../assets/vertexaThumb.webp'
 import external from '../../assets/external.svg'
@@ -18,13 +19,13 @@ export function ProjectsSec(){
             "description": "Um app de anotações que utiliza reconhecimento de fala para armazenar suas notas. Capture seus pensamentos rapidamente através do SmartNotes.",
             "tags": ['React', 'Tailwind', 'Radix']
         },
-        // {
-        //     "title": "CEFIS LXP",
-        //     "thumbnail": plannerThumb,
-        //     "deployLink": "https://cefis-client.onrender.com",
-        //     "description": "Este projeto fullstack consiste em uma versão simplificada de uma LXP (Learning Experience Platform). Alunos e Professores podem interagir através de cursos cadastrados na plataforma. Construido em React e Node para o desafio tech CEFIS.",
-        //     "tags": ['React', 'Tailwind', 'Node', 'Express', 'PostgreSQL']
-        // },
+        {
+            "title": "CEFIS LXP",
+            "thumbnail": LXPThumb,
+            "deployLink": "https://cefis-client.onrender.com",
+            "description": "Este projeto fullstack consiste em uma versão simplificada de uma LXP (Learning Experience Platform). Alunos e Professores podem interagir através de cursos cadastrados na plataforma. Construido em React e Node para o desafio tech CEFIS.",
+            "tags": ['React', 'Tailwind', 'Node', 'Express', 'PostgreSQL']
+        },
         // {
         //     "title": "myPlanner",
         //     "thumbnail": plannerThumb,

@@ -20,14 +20,15 @@ export function SkillsSec() {
                 <SkillIcon logoSrc={flutterLogo}>Flutter</SkillIcon>
                 <SkillIcon logoSrc={figmaLogo}>Figma</SkillIcon>
             </div>
-            <div className=' h-[1px] w-1/2 mt-6 bg-amber-950/10' />
+            <hr className=' h-[1px] w-1/2 mt-6 bg-amber-950/10' />
             <div className="grid grid-cols-4 gap-12 mt-10 md:grid-cols-6 justify-items-center">
-                <SkillIcon logoSrc={reactlogo}>React</SkillIcon>
-                <SkillIcon logoSrc={tailwindLogo}>Tailwind</SkillIcon>
-                <SkillIcon logoSrc={htmlLogo}>HTML</SkillIcon>
-                <SkillIcon logoSrc={cssLogo}>CSS</SkillIcon>
-                <SkillIcon logoSrc={flutterLogo}>Flutter</SkillIcon>
-                <SkillIcon logoSrc={figmaLogo}>Figma</SkillIcon>
+                <SkillIcon logoSrc={reactlogo}>Node</SkillIcon>
+                <SkillIcon logoSrc={tailwindLogo}>Express</SkillIcon>
+                <SkillIcon logoSrc={htmlLogo}>z</SkillIcon>
+                <SkillIcon logoSrc={cssLogo}>Python</SkillIcon>
+                <SkillIcon logoSrc={cssLogo}>Git</SkillIcon>
+                <SkillIcon logoSrc={reactlogo}>Node</SkillIcon>
+
             </div>  
         </div>
     );
